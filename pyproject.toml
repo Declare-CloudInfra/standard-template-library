@@ -5,7 +5,7 @@ build-backend = "flit_core.buildapi"
 [project]
 name = "declare-cloudinfra-standard-template-library"
 authors = [
-    { name = "Jim Wyatt", email = "jim@declarecloudinfra.onmicrosoft.com" },
+    { name = "Jim Wyatt", email = "pypi@declarecloudinfra.onmicrosoft.com" },
 ]
 description = "Sample Python Project for creating a new Python Module"
 readme = "README.md"
