@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run GitHub Actions Version Updater
-        uses: saadmk11/github-actions-version-updater@v0.8.1
+        uses: saadmk11/github-actions-version-updater@64be81ba69383f81f2be476703ea6570c4c8686e
         with:
           # [Required] Access token with `workflow` scope.
           token: ${{ secrets.WORKFLOW_PAT }}
