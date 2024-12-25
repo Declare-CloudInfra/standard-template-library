@@ -24,3 +24,9 @@ def hello_goodbye():
     """Doc String."""
     hello_world(1)
     good_night()
+
+
+def hello_goodbye_int():
+    """Doc String."""
+    hello_world(2)
+    good_night()
