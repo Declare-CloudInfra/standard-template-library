@@ -23,7 +23,6 @@ requires-python = ">=3.8.1"
 dynamic = ["version"]
 
 [project.optional-dependencies]
-spark = ["pyspark>=3.0.0"]
 test = [
     "bandit[toml]==1.8.0",
     "black==24.10.0",
@@ -45,12 +44,12 @@ test = [
 ]
 
 [project.urls]
-Documentation = "https://github.com/microsoft/python-package-template/tree/main#readme"
-Source = "https://github.com/microsoft/python-package-template"
-Tracker = "https://github.com/microsoft/python-package-template/issues"
+Documentation = "https://declare-cloudinfra.github.io/standard-template-library/"
+Source = "https://github.com/Declare-CloudInfra/standard-template-library"
+Tracker = "https://github.com/Declare-CloudInfra/standard-template-library/issues"
 
 [tool.flit.module]
-name = "python_package"
+name = "declare_cloudinfra_standard_template_library"
 
 [tool.bandit]
 exclude_dirs = ["build", "dist", "tests", "scripts"]
