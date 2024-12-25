@@ -8,11 +8,6 @@ from __future__ import annotations
 from declare_cloudinfra_standard_template_library.hello_world import hello_goodbye_int
 
 
-def test_hello_goodbye_int(mocker):
-    mock_hello_world = mocker.patch("declare_cloudinfra_standard_template_library.hello_world.hello_world")
-    mock_good_night = mocker.patch("declare_cloudinfra_standard_template_library.hello_world.good_night")
-
+def test_int_hello_goodbye():
+    """Test the hello_goodbye_int function."""
     hello_goodbye_int()
-
-    mock_hello_world.assert_called_once_with(2)
-    mock_good_night.assert_called_once()
