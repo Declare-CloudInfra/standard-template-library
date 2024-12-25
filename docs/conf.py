@@ -18,9 +18,9 @@ sys.path.insert(0, os.path.abspath("../src/"))
 
 # -- Project information -----------------------------------------------------
 
-project = "ai-python docs"
-copyright = "2022, Daniel Ciborowski"
-author = "Daniel Ciborowski"
+project = "declare cloudinfra standard template library docs"
+copyright = "2024, Declare CloudInfra Limited Liability Company"
+author = "Jim Wyatt"
 
 # The full version, including alpha/beta/rc tags
 release = "0.1.0"
