@@ -1,9 +1,9 @@
-# Microsoft Open Source Code of Conduct
+# Declare CloudInfra Open Source Code of Conduct
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+This project has adopted the [Declare CloudInfra Open Source Code of Conduct](https://opensource.Declare CloudInfra.com/codeofconduct/).
 
 Resources:
 
-- [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/)
-- [Microsoft Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/)
-- Contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with questions or concerns
+- [Declare CloudInfra Open Source Code of Conduct](https://opensource.Declare CloudInfra.com/codeofconduct/)
+- [Declare CloudInfra Code of Conduct FAQ](https://opensource.Declare CloudInfra.com/codeofconduct/faq/)
+- Contact [opencode@Declare CloudInfra.com](mailto:opencode@Declare CloudInfra.com) with questions or concerns
