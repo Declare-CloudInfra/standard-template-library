@@ -1,32 +1,17 @@
 #   ---------------------------------------------------------------------------------
-#   Copyright (c) Microsoft Corporation. All rights reserved.
+#   Copyright (c) Declare CloudInfra Limited Liability Company. All rights reserved.
 #   Licensed under the MIT License. See LICENSE in project root for information.
 #   ---------------------------------------------------------------------------------
 """This is a sample python file for testing functions from the source code."""
 from __future__ import annotations
 
-from declare_cloudinfra_standard_template_library.hello_world import hello_world
+from declare_cloudinfra_standard_template_library.hello_world import hello_goodbye
+from unittest.mock import patch
 
 
-def hello_test():
-    """
-    This defines the expected usage, which can then be used in various test cases.
-    Pytest will not execute this code directly, since the function does not contain the suffex "test"
-    """
-    hello_world()
-
-
-def test_hello(unit_test_mocks: None):
-    """
-    This is a simple test, which can use a mock to override online functionality.
-    unit_test_mocks: Fixture located in conftest.py, implictly imported via pytest.
-    """
-    hello_test()
-
-
-def test_int_hello():
-    """
-    This test is marked implicitly as an integration test because the name contains "_int_"
-    https://docs.pytest.org/en/6.2.x/example/markers.html#automatically-adding-markers-based-on-test-names
-    """
-    hello_test()
+@patch("declare_cloudinfra_standard_template_library.hello_world.hello_world")
+@patch("declare_cloudinfra_standard_template_library.hello_world.good_night")
+def test_hello_goodbye(mock_good_night, mock_hello_world):
+    hello_goodbye()
+    mock_hello_world.assert_called_once_with(1)
+    mock_good_night.assert_called_once()
